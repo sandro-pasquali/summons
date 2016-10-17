@@ -1,0 +1,15 @@
+{
+  "name": "summons",
+  "version": "1.0.0",
+  "description": "Pretty documentation for your files",
+  "main": "summons.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "documentation"
+  ],
+  "author": "Sandro Pasquali <spasquali@gmail.com>",
+  "license": "MIT"
+}
