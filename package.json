@@ -1,6 +1,6 @@
 {
   "name": "summons",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Pretty documentation for your files",
   "main": "summons.js",
   "scripts": {
