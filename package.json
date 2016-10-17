@@ -11,5 +11,13 @@
     "documentation"
   ],
   "author": "Sandro Pasquali <spasquali@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandro-pasquali/summons.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sandro-pasquali/summons/issues"
+  },
+  "homepage": "https://github.com/sandro-pasquali/summons#readme"
 }
