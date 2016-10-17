@@ -21,8 +21,9 @@ Given:
             index.js
             index.css
 </pre>
+
 To load 'foo.js' into Summons enter -- scripts/foo.js
 
-To load 'summons.js' -- summons/summons.js
+To load 'summons.js' -- summons.js
 [you can also simply hit 'return' from the input to get this file]
 
