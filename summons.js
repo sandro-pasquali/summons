@@ -85,11 +85,11 @@ function Summons(src) {
 		//	Tabs become two spaces (2nd arg)
 		//
 		Summons.prototype.hljs.highlightBlock(right, "  ", false);
-	}
+	};
 
 	var updateCommentBuffer = function(line) {
 
-		if(!!!trim(line)) {
+		if(!trim(line)) {
 			return;
 		}
 
@@ -98,11 +98,11 @@ function Summons(src) {
 		}
 
 		commBuff += prepareLine(line);
-	}
+	};
 
 	var updateCodeBuffer = function(line) {
 
-		if(!!!trim(line)) {
+		if(!trim(line)) {
 			return;
 		}
 
@@ -134,7 +134,7 @@ function Summons(src) {
 		}
 
 		if(commenting) {
-			updateCommentBuffer(line)
+			updateCommentBuffer(line);
 			continue;
 		}
 
@@ -155,7 +155,7 @@ function Summons(src) {
 	//
 	drawCode();
 	drawComments();
-};
+}
 
 //	Highlight.js
 //	http://softwaremaniacs.org/soft/highlight/en/
